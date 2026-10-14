@@ -1,0 +1,220 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="VAS Advisory: valuation, accounting and audit, and structuring services from a chartered accountancy practice in Mumbai.">
+<title>VAS Advisory</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Instrument+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: sticky nav, split hero with pillar mark, three service columns (V/A/S), approach list, audience grid, contact band. Navy/blue/gold from the logo. */
+:root{
+  --bg:#F6F8FC; --surface:#FFFFFF; --fg:#0E1B3D; --muted:#4E5B7A; --line:#D9E0EE;
+  --navy:#0B2A6B; --blue:#2E86DE; --gold:#F5B800; --gold-ink:#7A5A00; --band:#0B2A6B; --band-fg:#F6F8FC;
+  --f-display:'Fraunces',Georgia,serif; --f-body:'Instrument Sans',system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#08122B; --surface:#0E1D44; --fg:#EAF0FF; --muted:#A5B2D3; --line:#22345F;
+  --navy:#8DB4FF; --blue:#4D9BEA; --gold:#F5B800; --gold-ink:#F5B800; --band:#0E1D44; --band-fg:#EAF0FF; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#08122B; --surface:#0E1D44; --fg:#EAF0FF; --muted:#A5B2D3; --line:#22345F;
+  --navy:#8DB4FF; --blue:#4D9BEA; --gold:#F5B800; --gold-ink:#F5B800; --band:#0E1D44; --band-fg:#EAF0FF; color-scheme:dark}
+*{box-sizing:border-box}
+html,body{margin:0}body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:17px;line-height:1.65;padding-inline:20px}
+.wrap{max-width:1080px;margin-inline:auto}
+h1,h2,h3{font-family:var(--f-display);font-weight:600;line-height:1.15;text-wrap:balance;margin:0}
+p{margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+nav{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-block:18px;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand b{font-family:var(--f-display);font-size:22px;letter-spacing:.06em;color:var(--navy)}
+.brand span{font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--muted)}
+.links{display:flex;gap:22px;flex-wrap:wrap;font-size:15px;font-weight:500}
+.links a{text-decoration:none;color:var(--muted)}
+.links a:hover{color:var(--fg)}
+.hero{display:grid;grid-template-columns:1.3fr .7fr;gap:48px;align-items:center;padding-block:72px 64px}
+.eyebrow{font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-ink);font-weight:600;margin-bottom:16px}
+h1{font-size:clamp(36px,5.4vw,58px);color:var(--navy)}
+.lead{margin-top:20px;font-size:19px;color:var(--muted);max-width:56ch}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+.btn{display:inline-block;padding:13px 22px;border-radius:4px;font-weight:600;font-size:15px;text-decoration:none;border:1.5px solid var(--navy)}
+.btn.p{background:var(--navy);color:var(--bg)}
+.btn.s{color:var(--navy)}
+.mark{justify-self:center;width:100%;max-width:300px}
+section{padding-block:64px;border-top:1px solid var(--line)}
+h2{font-size:clamp(28px,3.6vw,38px);color:var(--navy);margin-bottom:12px}
+.sub{color:var(--muted);max-width:60ch;margin-bottom:40px}
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.svc{background:var(--surface);border:1px solid var(--line);padding:28px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.svc .bar{height:6px;width:56px}
+.svc h3{font-size:24px;color:var(--navy)}
+.svc .tag{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.svc ul{margin:0;padding-left:18px;color:var(--muted);font-size:15.5px}
+.svc li{margin-bottom:6px}
+.steps{display:grid;grid-template-columns:repeat(2,1fr);gap:32px 48px;margin:0;padding:0;list-style:none}
+.steps li{min-width:0}
+.steps h3{font-size:20px;color:var(--navy);margin-bottom:6px}
+.steps p{color:var(--muted);font-size:16px}
+.who{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.who div{border-top:3px solid var(--gold);padding-top:14px;min-width:0}
+.who b{display:block;font-family:var(--f-display);font-size:19px;color:var(--navy);margin-bottom:4px}
+.who span{color:var(--muted);font-size:15px}
+.band{background:var(--band);color:var(--band-fg);padding:56px 28px;margin-top:0;border-top:0}
+.band h2{color:var(--band-fg)}
+.band .sub{color:inherit;opacity:.85}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.box{border:1px solid rgba(255,255,255,.25);padding:22px;min-width:0}
+.box dt{font-size:12px;letter-spacing:.2em;text-transform:uppercase;opacity:.7;margin-top:14px}
+.box dt:first-child{margin-top:0}
+.box dd{margin:2px 0 0;font-size:18px;overflow-wrap:anywhere}
+.box .ph{color:var(--gold)}
+form{display:grid;gap:12px;min-width:0}
+label{font-size:13px;letter-spacing:.08em;text-transform:uppercase;opacity:.8}
+input,textarea,select{width:100%;font:inherit;padding:11px 12px;border-radius:3px;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.08);color:var(--band-fg)}
+select option{color:#0E1B3D}
+button{font:inherit;font-weight:600;padding:13px 22px;border:0;border-radius:4px;background:var(--gold);color:#0B2A6B;cursor:pointer;justify-self:start}
+#msg{font-size:15px;min-height:1.5em;color:var(--gold)}
+footer{padding-block:28px 40px;color:var(--muted);font-size:14px;display:grid;gap:8px}
+@media (max-width:860px){
+  .hero{grid-template-columns:1fr;padding-block:48px 40px;gap:32px}
+  .mark{max-width:200px;justify-self:start}
+  .cols,.steps,.who,.contact{grid-template-columns:1fr}
+  .who{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:420px){.who{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+<nav>
+  <a class="brand" href="#top" aria-label="VAS Advisory home">
+    <svg width="38" height="38" viewBox="0 0 100 100" role="img" aria-hidden="true"><rect x="14" y="52" width="20" height="34" fill="#0B2A6B"/><rect x="40" y="36" width="20" height="50" fill="#2E86DE"/><rect x="66" y="16" width="20" height="70" fill="#F5B800"/><rect x="8" y="90" width="84" height="4" fill="#0B2A6B"/></svg>
+    <div><b>VAS</b><br><span>Advisory</span></div>
+  </a>
+  <div class="links"><a href="#services">Services</a><a href="#approach">Approach</a><a href="#clients">Clients</a><a href="#contact">Contact</a></div>
+</nav>
+
+<header class="hero" id="top">
+  <div>
+    <p class="eyebrow">Valuation · Accounting and Audit · Structuring</p>
+    <h1>Numbers that stand up to scrutiny.</h1>
+    <p class="lead">VAS Advisory is a chartered accountancy practice for founders, family businesses and investors. We value the business, keep the books and audit trail clean, and structure the transaction so it holds together with the tax authorities, the regulator and the other side of the table.</p>
+    <div class="cta"><a class="btn p" href="#contact">Book a consultation</a><a class="btn s" href="#services">See our services</a></div>
+  </div>
+  <svg class="mark" viewBox="0 0 240 240" role="img" aria-label="VAS Advisory pillar mark: three rising bars in navy, blue and gold">
+    <rect x="40" y="120" width="44" height="80" fill="#0B2A6B"/>
+    <rect x="98" y="84" width="44" height="116" fill="#2E86DE"/>
+    <rect x="156" y="40" width="44" height="160" fill="#F5B800"/>
+    <rect x="28" y="208" width="184" height="7" fill="#0B2A6B"/>
+  </svg>
+</header>
+
+<section id="services">
+  <h2>Three disciplines, one team.</h2>
+  <p class="sub">Each letter in our name is a service line. Most engagements touch two or three of them, so the same people carry the work from the valuation to the closing entries.</p>
+  <div class="cols">
+    <article class="svc">
+      <div class="bar" style="background:#0B2A6B"></div>
+      <p class="tag">V</p>
+      <h3>Valuation</h3>
+      <ul>
+        <li>Share and business valuation for fundraising, ESOPs and share transfers</li>
+        <li>Valuation for FEMA and Income Tax purposes, including fair value of unquoted shares</li>
+        <li>Purchase price allocation and impairment support</li>
+        <li>Valuation for mergers, demergers and buyouts</li>
+      </ul>
+    </article>
+    <article class="svc">
+      <div class="bar" style="background:#2E86DE"></div>
+      <p class="tag">A</p>
+      <h3>Accounting and audit</h3>
+      <ul>
+        <li>Outsourced accounting and virtual CFO services</li>
+        <li>Statutory, tax and internal audits</li>
+        <li>Ind AS and AS financial statements, MIS and board reporting</li>
+        <li>Budgeting, cash-flow forecasting and investor-ready reporting</li>
+      </ul>
+    </article>
+    <article class="svc">
+      <div class="bar" style="background:#F5B800"></div>
+      <p class="tag">S</p>
+      <h3>Structuring</h3>
+      <ul>
+        <li>Group and holding structures, family business restructuring</li>
+        <li>Cross-border and NRI investment structuring under FEMA</li>
+        <li>Tax-efficient mergers, slump sales and reorganisations</li>
+        <li>Due diligence and transaction advisory</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section id="approach">
+  <h2>How we work.</h2>
+  <p class="sub">A fixed scope and a named partner on every engagement.</p>
+  <ul class="steps">
+    <li><h3>Scoping</h3><p>A first conversation to understand the transaction or reporting need, the deadline and who will rely on our work. You receive a written scope and fee before we begin.</p></li>
+    <li><h3>Working papers you can follow</h3><p>Every figure traces to a source document and a stated assumption. Valuation reports set out the method, the inputs and the sensitivity of the result.</p></li>
+    <li><h3>Review before release</h3><p>A second partner reviews every report, opinion and filing before it leaves the firm.</p></li>
+    <li><h3>Support after delivery</h3><p>We stay available for questions from banks, investors, auditors and the tax department on work we have signed.</p></li>
+  </ul>
+</section>
+
+<section id="clients">
+  <h2>Who we work with.</h2>
+  <p class="sub">Clients who need a defensible number or a clean structure, and are not looking for the cheapest filing.</p>
+  <div class="who">
+    <div><b>Startups</b><span>Fundraising valuations, ESOPs, virtual CFO support</span></div>
+    <div><b>Family businesses</b><span>Succession, restructuring and group clean-up</span></div>
+    <div><b>NRIs and cross-border investors</b><span>FEMA-compliant investment and property structures</span></div>
+    <div><b>Investors and funds</b><span>Due diligence, portfolio valuation and reporting</span></div>
+  </div>
+</section>
+</div>
+
+<section class="band" id="contact" style="border-radius:0;margin-inline:-20px;padding-inline:20px">
+  <div class="wrap">
+    <h2>Talk to us.</h2>
+    <p class="sub">Tell us what you are working on. We reply within one business day with next steps.</p>
+    <div class="contact">
+      <dl class="box">
+        <dt>Email</dt><dd>vikaspalod@gmail.com</dd>
+        <dt>Phone</dt><dd>+91 91672 22198</dd>
+        <dt>Office</dt><dd>Kandivali, Mumbai</dd>
+        <dt>Hours</dt><dd>Monday to Saturday, 10 am to 6 pm IST</dd>
+      </dl>
+      <form id="f" novalidate>
+        <div><label for="n">Your name</label><input id="n" autocomplete="name"></div>
+        <div><label for="e">Email</label><input id="e" type="email" autocomplete="email"></div>
+        <div><label for="s">Service</label>
+          <select id="s"><option>Valuation</option><option>Accounting and audit</option><option>Structuring</option><option>Not sure yet</option></select></div>
+        <div><label for="m">What do you need help with?</label><textarea id="m" rows="4"></textarea></div>
+        <button type="submit">Send enquiry</button>
+        <p id="msg" role="status"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+<footer>
+  <p>© 2026 VAS Advisory. All rights reserved.</p>
+  <p>The information on this site is general in nature and does not constitute professional advice. Engagements begin only after a written engagement letter.</p>
+</footer>
+</div>
+
+<script>
+document.getElementById('f').addEventListener('submit',function(ev){
+  ev.preventDefault();
+  var m=document.getElementById('msg');
+  if(!document.getElementById('n').value.trim()||!/\S+@\S+\.\S+/.test(document.getElementById('e').value)){m.textContent='Enter your name and a valid email address.';return}
+  m.textContent='This is a preview. The form will send enquiries once the site is live with a form service connected.';
+});
+</script>
+</body>
+</html>
+
+</body></html>
